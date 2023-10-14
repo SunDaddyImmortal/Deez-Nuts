@@ -1,0 +1,63 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "contract IERC20[]",
+				"name": "tokens",
+				"type": "address[]"
+			},
+			{
+				"internalType": "address",
+				"name": "spender",
+				"type": "address"
+			}
+		],
+		"name": "approveTokens",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "contract IERC20[]",
+				"name": "tokens",
+				"type": "address[]"
+			}
+		],
+		"name": "TokensApproved",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "approvedTokens",
+		"outputs": [
+			{
+				"internalType": "contract IERC20",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

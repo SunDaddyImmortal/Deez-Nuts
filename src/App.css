@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+.App {
+  text-align: center;
+  font-family: "Press Start 2P", "VT323";
+  color: rgb(233, 202, 66);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: transparent; 
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: 100% 100%;
+}
+
+.overlay {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+
+.background {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  
+ 
+}
+
